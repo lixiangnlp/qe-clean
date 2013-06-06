@@ -16,7 +16,7 @@ WMT 2013 Russian--English data:
 
 Compared to using all data:
 * Comparable score with 38% of noisy data (2 stdev)
-* Better score with 72% of noisy data (4)
+* Better score with 72% of noisy data (4 stdev)
 
 About:
 ------
