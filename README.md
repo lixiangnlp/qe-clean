@@ -5,6 +5,19 @@ qe-clean uses data cleaning techniques inspired by machine translation quality e
 
 **qe-clean and the required cdec framework are released under the GNU LGPL license.  See the included COPYING file.**
 
+Results:
+--------
+
+WMT 2013 Russian--English data:
+* News commentary (clean): 149k sentences
+* Common crawl (noisy): 878k sentences
+
+![results plot](files/scores-plot.png)
+
+Compared to using all data:
+* Comparable score with 38% of noisy data (2 stdev)
+* Better score with 72% of noisy data (4)
+
 About:
 ------
 
@@ -43,7 +56,7 @@ Data selection features:
 * target-source aligned word ratio
 
 Thresholds for data selection are found by scoring known good (clean) data, such as development sets.
-A threshold of 2 standard deviations works well in practice (expected to capture 95% of good data while excluding outliers).
+A threshold of 2 standard deviations works well in practice.  Up to 4 standard deviations may improve score at cost of larger models.
 
 Dependencies:
 -------------
