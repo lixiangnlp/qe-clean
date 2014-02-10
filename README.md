@@ -1,4 +1,5 @@
-NOTE: some tools in cdec have changed since qe-clean was developed.  Use the following to ensure you have the version of cdec that qe-clean expects:
+**NOTE: some tools in cdec have changed since qe-clean was developed.  Use the following to ensure you have the version of cdec that qe-clean expects:**
+
 ```
 git clone https://github.com/redpony/cdec.git cdec-old
 cd cdec-old
@@ -10,7 +11,7 @@ qe-clean
 
 qe-clean uses data cleaning techniques inspired by machine translation quality estimation.
 
-**qe-clean and the required cdec framework are released under the GNU LGPL license.  See the included COPYING file.**
+**qe-clean is released under the GNU LGPL license.  The required cdec toolkit is released under the Apache license.  See the included COPYING file.**
 
 Results:
 --------
