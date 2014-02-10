@@ -1,3 +1,10 @@
+NOTE: some tools in cdec have changed since qe-clean was developed.  Use the following to ensure you have the version of cdec that qe-clean expects:
+```
+git clone https://github.com/redpony/cdec.git cdec-old
+cd cdec-old
+git reset --hard bf10ad9d1d3a17ae82804f947616db89f41d4f28
+```
+
 qe-clean
 ========
 
